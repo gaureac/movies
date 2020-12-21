@@ -1,0 +1,22 @@
+.movies-list {
+    display: flex;
+    padding: 0 0 24px;
+    overflow-y: auto;
+    list-style: none;
+}
+
+.movies-list li {
+    padding: 0 10px;
+}
+
+.movies-list li:first-child {
+    padding-left: 0;
+}
+
+.movies-list li:last-child {
+    padding-right: 0;
+}
+
+.movies-list img {
+    border: 1px solid #ffffff;
+}
